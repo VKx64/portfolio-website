@@ -2,18 +2,7 @@ services:
   portfolio:
     build:
       context: .
-      dockerfile_inline: |
-        FROM node:22-alpine AS build
-        WORKDIR /app
-        COPY package*.json ./
-        RUN npm ci
-        COPY . .
-        RUN npm run build
-        FROM node:22-alpine
-        RUN npm i -g serve
-        COPY --from=build /app/dist /app
-        EXPOSE 3000
-        CMD ["serve", "-s", "/app", "-l", "3000"]
+      dockerfile: Dockerfile
     container_name: portfolio
     ports:
       - "3000:3000"
