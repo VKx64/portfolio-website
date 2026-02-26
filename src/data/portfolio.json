@@ -1,0 +1,168 @@
+{
+    "profile": {
+        "name": "Kylle Vryann",
+        "fullName": "Kylle Vryann Manacio",
+        "tagline": "Build. Ship. Repeat.",
+        "profileImage": "/images/profile.png",
+        "status": "System Deployed",
+        "headline": {
+            "prefix": "Architecting",
+            "highlight": "scalable solutions"
+        },
+        "description": "I craft robust web, mobile, and AI-powered applications. Focused on scalable architecture, clean code, and delivering production-ready efficiency.",
+        "resumeUrl": "#",
+        "githubUrl": "https://github.com/VKx64",
+        "email": "kylledoestech@gmail.com"
+    },
+    "skills": [
+        {
+            "icon": "layers",
+            "title": "Full-Stack",
+            "desc": "Next.js, React, Node.js, REST APIs, PostgreSQL"
+        },
+        {
+            "icon": "psychology",
+            "title": "AI/ML",
+            "desc": "TensorFlow, PyTorch, CNNs, Computer Vision"
+        },
+        {
+            "icon": "brush",
+            "title": "UI Engineering",
+            "desc": "Tailwind CSS, Framer Motion, Radix UI, UX Design"
+        },
+        {
+            "icon": "dns",
+            "title": "DevOps",
+            "desc": "Docker, Kubernetes, CI/CD Pipelines, AWS, Vercel"
+        },
+        {
+            "icon": "smartphone",
+            "title": "Mobile",
+            "desc": "React Native, Expo, Android Studio, Flutter"
+        },
+        {
+            "icon": "build",
+            "title": "Tooling",
+            "desc": "Linux, Git, Bash Scripting, Automation Hooks"
+        }
+    ],
+    "experience": [
+        {
+            "_note": "Bullet 1: Responsibility/What you did | Bullet 2-3: Metrics & Impact",
+            "date": "OCT 2025 — NOW",
+            "type": "Full Time",
+            "title": "Full Stack Developer & Project Manager",
+            "company": "IMagic Agency",
+            "bullets": [
+                "Lead end-to-end development and project management for client web and mobile applications.",
+                "Reduced average project delivery time by streamlining CI/CD pipelines and sprint planning.",
+                "Managed a cross-functional team, consistently shipping features on schedule with zero critical bugs."
+            ]
+        },
+        {
+            "_note": "Bullet 1: Responsibility/What you did | Bullet 2-3: Metrics & Impact",
+            "date": "JAN 2025 — SEP 2025",
+            "type": "Internship",
+            "title": "Full-Stack Developer Intern",
+            "company": "Kave Guild",
+            "bullets": [
+                "Built and maintained features on the Kave Guild website and the Extragig mobile job-finding app.",
+                "Improved page load performance by 40% through code splitting and lazy-loading optimizations.",
+                "Shipped 12+ production features across web and mobile stacks during the internship."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Dermacura",
+            "description": "Mobile app for dermatology care with telemedicine and AI-powered skin disease detection. Implemented a CNN model for preliminary skin-condition analysis.",
+            "image": "/images/dermacura.jpg",
+            "alt": "Dermacura Interface",
+            "icon": "medical_services",
+            "tags": [
+                "React Native",
+                "Python",
+                "TensorFlow"
+            ]
+        },
+        {
+            "title": "Truck-io Fleet Management",
+            "description": "GPS-enabled admin panel with live tracking and route optimization. Developed a React Native driver app with real-time alerts.",
+            "image": "/images/truckio.jpg",
+            "alt": "Truck-io Fleet Management",
+            "icon": "local_shipping",
+            "tags": [
+                "React Native",
+                "Web Admin",
+                "GPS API"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "BS in Computer Science",
+            "school": "STI College - General Santos",
+            "date": "AUG 2021 — JUN 2025",
+            "details": "Relevant subjects: Software Engineering, Programming Languages, HCI, Data Structures & Algorithms."
+        }
+    ],
+    "awards": [
+        {
+            "icon": "military_tech",
+            "title": "Codefest Competition",
+            "subtitle": "1st Runner-up (STI College - GS)",
+            "date": "JUN 2024"
+        },
+        {
+            "icon": "verified",
+            "title": "Full-Stack Certification",
+            "subtitle": "Advanced React & Node.js Mastery",
+            "date": "DEC 2024"
+        },
+        {
+            "icon": "description",
+            "title": "AI Engineering Workshop",
+            "subtitle": "Neural Networks & Computer Vision",
+            "date": "OCT 2024"
+        }
+    ],
+    "contactLinks": [
+        {
+            "icon": "mail",
+            "label": "Email",
+            "href": "mailto:kylledoestech@gmail.com"
+        },
+        {
+            "icon": "code",
+            "label": "GitHub",
+            "href": "https://github.com/VKx64"
+        },
+        {
+            "icon": "person",
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/in/vkx64"
+        },
+        {
+            "icon": "forum",
+            "label": "Discord",
+            "href": "#"
+        }
+    ],
+    "footer": {
+        "copyright": "© 2025 Kylle Vryann Manacio. System Deployed.",
+        "socials": [
+            {
+                "label": "TWITTER",
+                "href": "#"
+            },
+            {
+                "label": "LINKEDIN",
+                "href": "https://linkedin.com/in/vkx64"
+            },
+            {
+                "label": "GITHUB",
+                "href": "https://github.com/VKx64"
+            }
+        ]
+    }
+}
