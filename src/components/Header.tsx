@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { profile } from "../data/portfolio";
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ export default function Header() {
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-primary" />
                     </div>
                     <span className="text-base font-bold tracking-tight text-neutral-100 group-hover:text-primary-bright transition-colors uppercase">
-                        K.Manacio
+                        {profile.name}
                     </span>
                 </div>
             </div>

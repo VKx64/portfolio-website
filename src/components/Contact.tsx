@@ -40,25 +40,42 @@ export default function Contact() {
 
                 {/* Contact links grid */}
                 <div className="md:col-span-2 grid grid-cols-2 grid-rows-2 gap-4 md:gap-6 h-full">
-                    {contactLinks.map((link) => (
-                        <a
-                            key={link.label}
-                            className="relative bg-black/90 backdrop-blur-sm rounded-xl border border-border-dark flex flex-col items-center justify-center gap-4 group hover:border-primary-bright/50 transition-all duration-300 overflow-hidden min-h-[140px]"
-                            href={link.href}
-                            target={link.href.startsWith("http") ? "_blank" : undefined}
-                            rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                        >
+                    {contactLinks.map((link) => {
+                        const content = <>
                             <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             <div className="relative z-10 size-12 rounded-lg bg-surface-dark border border-border-dark flex items-center justify-center text-primary-bright group-hover:text-white group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(74,110,85,0.3)] transition-all duration-300">
                                 <span className="material-symbols-outlined text-2xl">
                                     {link.icon}
                                 </span>
                             </div>
-                            <span className="relative z-10 text-xs font-mono font-bold text-neutral-500 group-hover:text-primary-bright transition-colors uppercase tracking-widest">
-                                {link.label}
-                            </span>
-                        </a>
-                    ))}
+                            <div className="relative z-10 text-center px-3">
+                                <span className="block text-xs font-mono font-bold text-neutral-500 group-hover:text-primary-bright transition-colors uppercase tracking-widest">
+                                    {link.label}
+                                </span>
+                                <span className="block mt-2 text-xs text-neutral-600 group-hover:text-neutral-400 transition-colors break-all">
+                                    {link.value}
+                                </span>
+                            </div>
+                        </>;
+
+                        const className = "relative bg-black/90 backdrop-blur-sm rounded-xl border border-border-dark flex flex-col items-center justify-center gap-4 group hover:border-primary-bright/50 transition-all duration-300 overflow-hidden min-h-[140px]";
+
+                        return link.href ? (
+                            <a
+                                key={link.label}
+                                className={className}
+                                href={link.href}
+                                target={link.href.startsWith("http") ? "_blank" : undefined}
+                                rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                            >
+                                {content}
+                            </a>
+                        ) : (
+                            <div key={link.label} className={className}>
+                                {content}
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </section>

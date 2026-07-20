@@ -1,4 +1,4 @@
-# Portfolio — Kylle Vryann Manacio
+# Portfolio — Kylle Doe
 
 A dark-themed developer portfolio built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS v4**.
 
@@ -33,7 +33,6 @@ All portfolio content is stored in **`src/data/portfolio.json`**. Update this si
 | `experience`   | Execution History timeline              |
 | `projects`     | Featured Output project cards           |
 | `education`    | Degree & school info                    |
-| `awards`       | Awards & Certificates list              |
 | `contactLinks` | Contact grid (email, GitHub, etc.)      |
 | `footer`       | Copyright text & social links           |
 

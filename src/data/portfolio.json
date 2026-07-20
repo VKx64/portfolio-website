@@ -1,163 +1,160 @@
 {
     "profile": {
-        "name": "Kylle Vryann",
-        "fullName": "Kylle Vryann Manacio",
-        "tagline": "Build. Ship. Repeat.",
+        "name": "Kylle Doe",
+        "fullName": "Kylle Doe",
+        "tagline": "Full Stack + AI Automation",
         "profileImage": "/images/profile.png",
         "status": "System Deployed",
         "headline": {
-            "prefix": "Architecting",
-            "highlight": "scalable solutions"
+            "prefix": "Building",
+            "highlight": "full-stack & AI workflows"
         },
-        "description": "I craft robust web, mobile, and AI-powered applications. Focused on scalable architecture, clean code, and delivering production-ready efficiency.",
-        "resumeUrl": "#",
+        "description": "I build full-stack tools and AI automations that turn complex operational work into clear, dependable systems—from responsive dashboards and REST APIs to n8n workflows and production deployments.",
+        "contactUrl": "mailto:kylledoestech@gmail.com?subject=Portfolio%20inquiry",
         "githubUrl": "https://github.com/VKx64",
         "email": "kylledoestech@gmail.com"
     },
     "skills": [
         {
             "icon": "layers",
-            "title": "Full-Stack",
-            "desc": "Next.js, React, Node.js, REST APIs, PostgreSQL"
-        },
-        {
-            "icon": "psychology",
-            "title": "AI/ML",
-            "desc": "TensorFlow, PyTorch, CNNs, Computer Vision"
-        },
-        {
-            "icon": "brush",
-            "title": "UI Engineering",
-            "desc": "Tailwind CSS, Framer Motion, Radix UI, UX Design"
+            "title": "Frontend Development",
+            "desc": "React, Vite, JavaScript, TypeScript, Tailwind CSS, responsive UI, dashboards"
         },
         {
             "icon": "dns",
-            "title": "DevOps",
-            "desc": "Docker, Kubernetes, CI/CD Pipelines, AWS, Vercel"
+            "title": "Backend Development",
+            "desc": "Node.js, Laravel, PHP, REST APIs, MySQL, PostgreSQL, Postman"
         },
         {
-            "icon": "smartphone",
-            "title": "Mobile",
-            "desc": "React Native, Expo, Android Studio, Flutter"
+            "icon": "psychology",
+            "title": "Automation & AI",
+            "desc": "n8n, OpenAI Agent Builder, webhooks, API integrations, workflow orchestration"
+        },
+        {
+            "icon": "travel_explore",
+            "title": "Web Scraping",
+            "desc": "Crawl4AI, Firecrawl, Apify, AI-assisted scraping, structured data extraction"
+        },
+        {
+            "icon": "deployed_code",
+            "title": "DevOps & Servers",
+            "desc": "Docker, Komodo, Ubuntu, SSH, UFW, Fail2Ban, SSL, domains, deployments"
         },
         {
             "icon": "build",
-            "title": "Tooling",
-            "desc": "Linux, Git, Bash Scripting, Automation Hooks"
+            "title": "Tools & Delivery",
+            "desc": "Git, GitHub, ClickUp, Notion, OpenCode, Docker Compose, Docker Stack"
         }
     ],
     "experience": [
         {
-            "_note": "Bullet 1: Responsibility/What you did | Bullet 2-3: Metrics & Impact",
-            "date": "OCT 2025 — NOW",
-            "type": "Full Time",
-            "title": "Full Stack Developer & Project Manager",
-            "company": "IMagic Agency",
+            "date": "OCT 2025 — PRESENT",
+            "type": "Remote",
+            "title": "Full Stack Developer & AI Automation Developer",
+            "company": "iMagic Agency",
             "bullets": [
-                "Lead end-to-end development and project management for client web and mobile applications.",
-                "Reduced average project delivery time by streamlining CI/CD pipelines and sprint planning.",
-                "Managed a cross-functional team, consistently shipping features on schedule with zero critical bugs."
+                "Build internal medical-operations tools spanning patient intake, status tracking, scheduling, EMR, billing, authorization, eligibility, custody, insurance verification, and team coordination.",
+                "Deliver Vite, Node.js, and MySQL features across dashboards, APIs, routes, controllers, and database-backed workflows.",
+                "Reduced manual workload by about 50% by replacing spreadsheet processes and multi-step coordination with automated workflows and one-click actions.",
+                "Build n8n and AI-assisted pipelines with webhooks, OpenAI, structured outputs, Crawl4AI, Firecrawl, ImageKit, and ClickUp integrations.",
+                "Support Docker-based deployments, SSH, SSL, domains, subdomains, backups, and staging workflows."
             ]
         },
         {
-            "_note": "Bullet 1: Responsibility/What you did | Bullet 2-3: Metrics & Impact",
-            "date": "JAN 2025 — SEP 2025",
+            "date": "JAN 2025 — NOV 2025",
             "type": "Internship",
-            "title": "Full-Stack Developer Intern",
+            "title": "Full Stack Developer Intern",
             "company": "Kave Guild",
             "bullets": [
-                "Built and maintained features on the Kave Guild website and the Extragig mobile job-finding app.",
-                "Improved page load performance by 40% through code splitting and lazy-loading optimizations.",
-                "Shipped 12+ production features across web and mobile stacks during the internship."
+                "Used AI-assisted development tools, including ChatGPT and GitHub Copilot, to accelerate development, debugging, and system design.",
+                "Improved the official Kave Guild website through UI/UX enhancements and new features.",
+                "Contributed to Extragig, a mobile job-finding app, supporting architecture decisions and feature rollouts.",
+                "Built across web and mobile stacks with a focus on scalable, maintainable codebases."
             ]
         }
     ],
     "projects": [
         {
-            "title": "Dermacura",
-            "description": "Mobile app for dermatology care with telemedicine and AI-powered skin disease detection. Implemented a CNN model for preliminary skin-condition analysis.",
-            "image": "/images/dermacura.jpg",
-            "alt": "Dermacura Interface",
-            "icon": "medical_services",
+            "title": "Medical Operations Platform",
+            "description": "An internal system for patient intake, status tracking, scheduling, EMR handling, billing, authorization, eligibility, custody, insurance verification, and team coordination.",
+            "image": "",
+            "alt": "Medical operations platform",
+            "icon": "clinical_notes",
             "tags": [
-                "React Native",
-                "Python",
-                "TensorFlow"
+                "Vite",
+                "Node.js",
+                "MySQL",
+                "REST APIs"
             ]
         },
         {
-            "title": "Truck-io Fleet Management",
-            "description": "GPS-enabled admin panel with live tracking and route optimization. Developed a React Native driver app with real-time alerts.",
-            "image": "/images/truckio.jpg",
-            "alt": "Truck-io Fleet Management",
-            "icon": "local_shipping",
+            "title": "OrderOP Content Automation",
+            "description": "An n8n pipeline that collects restaurant branding, menus, images, colors, fonts, descriptions, and links from one URL, then produces structured, website-ready content.",
+            "image": "",
+            "alt": "OrderOP content automation workflow",
+            "icon": "account_tree",
             "tags": [
-                "React Native",
-                "Web Admin",
-                "GPS API"
+                "n8n",
+                "OpenAI",
+                "Crawl4AI",
+                "Firecrawl",
+                "ImageKit"
+            ]
+        },
+        {
+            "title": "ClickUp Ticket Automation",
+            "description": "An AI-assisted workflow that turns vague project tasks into structured tickets with user stories, benefits, acceptance criteria, technical requirements, and automatic tag cleanup.",
+            "image": "",
+            "alt": "ClickUp ticket automation workflow",
+            "icon": "task_alt",
+            "tags": [
+                "ClickUp",
+                "AI Workflows",
+                "Automation"
             ]
         }
     ],
     "education": [
         {
-            "degree": "BS in Computer Science",
-            "school": "STI College - General Santos",
+            "degree": "Bachelor of Science in Computer Science",
+            "school": "STI College, General Santos",
             "date": "AUG 2021 — JUN 2025",
-            "details": "Relevant subjects: Software Engineering, Programming Languages, HCI, Data Structures & Algorithms."
+            "details": "Coursework included software engineering, databases, human-computer interaction, application development, software quality assurance, algorithms, and data structures."
         }
     ],
-    "awards": [
-        {
-            "icon": "military_tech",
-            "title": "Codefest Competition",
-            "subtitle": "1st Runner-up (STI College - GS)",
-            "date": "JUN 2024"
-        },
-        {
-            "icon": "verified",
-            "title": "Full-Stack Certification",
-            "subtitle": "Advanced React & Node.js Mastery",
-            "date": "DEC 2024"
-        },
-        {
-            "icon": "description",
-            "title": "AI Engineering Workshop",
-            "subtitle": "Neural Networks & Computer Vision",
-            "date": "OCT 2024"
-        }
-    ],
+    "awards": [],
     "contactLinks": [
         {
             "icon": "mail",
             "label": "Email",
+            "value": "kylledoestech@gmail.com",
             "href": "mailto:kylledoestech@gmail.com"
+        },
+        {
+            "icon": "call",
+            "label": "Phone",
+            "value": "+63 952 472 9243",
+            "href": "tel:+639524729243"
         },
         {
             "icon": "code",
             "label": "GitHub",
+            "value": "VKx64",
             "href": "https://github.com/VKx64"
-        },
-        {
-            "icon": "person",
-            "label": "LinkedIn",
-            "href": "https://linkedin.com/in/vkx64"
         },
         {
             "icon": "forum",
             "label": "Discord",
-            "href": "#"
+            "value": "VKx64",
+            "href": ""
         }
     ],
     "footer": {
-        "copyright": "© 2025 Kylle Vryann Manacio. System Deployed.",
+        "copyright": "© 2026 Kylle Doe. System Deployed.",
         "socials": [
             {
-                "label": "TWITTER",
-                "href": "#"
-            },
-            {
-                "label": "LINKEDIN",
-                "href": "https://linkedin.com/in/vkx64"
+                "label": "EMAIL",
+                "href": "mailto:kylledoestech@gmail.com"
             },
             {
                 "label": "GITHUB",

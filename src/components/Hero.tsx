@@ -24,11 +24,11 @@ export default function Hero() {
                     </div>
                     <div className="relative z-10 flex flex-wrap gap-5 mt-auto">
                         <a
-                            href={profile.resumeUrl}
+                            href={profile.contactUrl}
                             className="flex items-center gap-3 justify-center rounded h-12 px-8 bg-white text-black hover:bg-neutral-200 text-base font-bold tracking-wide transition-all hover:translate-y-[-2px]"
                         >
-                            <span className="material-symbols-outlined text-xl">download</span>
-                            Download Resume
+                            <span className="material-symbols-outlined text-xl">mail</span>
+                            Email Me
                         </a>
                         <a
                             href={profile.githubUrl}

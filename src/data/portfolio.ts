@@ -23,6 +23,5 @@ export const projects = data.projects.map((p) => ({
 }));
 
 export const education = data.education;
-export const awards = data.awards;
 export const contactLinks = data.contactLinks;
 export const footer = data.footer;
